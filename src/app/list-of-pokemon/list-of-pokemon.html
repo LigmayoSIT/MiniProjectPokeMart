@@ -1,0 +1,12 @@
+<section class="pokemon-lists">
+    <h2> Pokemon Index Lists </h2>
+    <div class="card-grid">
+        @for (item of pokelists(); track item.name){
+            <div class="card">
+                <span class="icon">{{item.icon}}</span>
+                <h3>{{item.name}}</h3>
+                <p class="martPrice">USD {{item.price}}</p>
+            </div>
+        }
+    </div>
+</section>
