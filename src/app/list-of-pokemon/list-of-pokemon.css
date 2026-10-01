@@ -1,0 +1,23 @@
+.pokemon-lists{
+    text-align: center; 
+    padding: 2rem;
+}
+.card-grid{
+    display: flex; 
+    justify-content: center; 
+    gap: 1rem;
+}
+.card{
+    border: 1px solid; 
+    color: beige; 
+    padding: 1rem; 
+    border-radius: 8px; 
+    width: 150px;
+}
+.type{
+    font-size: 3rem;
+}
+.region{
+    color: green;
+    font-weight: bold;
+}

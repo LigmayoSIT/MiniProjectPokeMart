@@ -1,11 +1,14 @@
 <section class="pokemon-lists">
     <h2> Pokemon Index Lists </h2>
     <div class="card-grid">
-        @for (item of pokelists(); track item.name){
+        @for (item of pokemonindexlist(); track item.name){
             <div class="card">
-                <span class="icon">{{item.icon}}</span>
+                <!--<span class="staticon">{{item.icon}}</span>-->
                 <h3>{{item.name}}</h3>
-                <p class="martPrice">USD {{item.price}}</p>
+                <p class="regionorigin">Region: {{item.region}}</p>
+                <p class="specialtype">Type: {{item.type}}</p>
+                <p class="version">Game Version: {{item.gameVersion}}</p>
+
             </div>
         }
     </div>
